@@ -350,7 +350,6 @@ li {
   width: calc(100% - 20%);
   height: 27vw;
   margin: 0 auto;
-  border: solid red;
 }
 
 .coment-title {
