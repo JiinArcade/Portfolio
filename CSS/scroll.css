@@ -1,0 +1,19 @@
+.path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.content2 {
+  margin-top: -8px;
+}
+
+.path2 {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.footer {
+  height: 50vh;
+}
