@@ -353,7 +353,7 @@ li {
 }
 
 .coment-box {
-  width: calc(100% - 20%);
+  width: calc(100% - 15%);
   height: 27vw;
   margin: 0 auto;
 }
@@ -365,7 +365,7 @@ li {
 }
 
 .info-box {
-  width: calc(100% - 15%);
+  width: calc(100% - 20%);
   height: 25vw;
   display: flex;
   justify-content: space-between;
@@ -397,7 +397,7 @@ li {
 }
 
 .info-title {
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   font-weight: 700;
 }
 
