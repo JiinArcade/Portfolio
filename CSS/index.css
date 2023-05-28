@@ -5,6 +5,12 @@
   font-family: "Pretendard-Medium";
 }
 
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
 a {
   color: #000000;
   text-decoration: none;
@@ -347,7 +353,6 @@ li {
 }
 
 .coment-box {
-  position: relative;
   width: calc(100% - 20%);
   height: 27vw;
   margin: 0 auto;
@@ -359,19 +364,8 @@ li {
   font-family: "Pretendard-Medium";
 }
 
-.info-prev-next {
-  position: absolute;
-  top: 1vw;
-  right: 8vw;
-  width: calc(100% - 93%);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 2vw;
-}
-
 .info-box {
-  width: calc(100% - 20%);
+  width: calc(100% - 15%);
   height: 25vw;
   display: flex;
   justify-content: space-between;
@@ -381,28 +375,37 @@ li {
 }
 
 .info-list {
-  width: calc(100% - 75%);
-  height: 15vw;
+  width: calc(100% - 72%);
+  height: 17vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eeeeee;
-  border-radius: 2vw;
+  background-color: #f3f3f3;
+  border-radius: 2.5vw;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.info-list:hover {
+  transform: scale(1.05);
+  box-shadow:  2px 10px 8px #c0c0c0;
 }
 
 .info-item {
   width: calc(100% - 13%);
-  padding: 5%;
+  padding: 4%;
 }
 
 .info-title {
-  font-size: 1.2vw;
+  font-size: 1.5vw;
   font-weight: 700;
 }
 
 .info-text {
-  font-size: 1vw;
-  margin-top: 1vw;
+  font-size: 1.1vw;
+  margin-top: 1.5vw;
+  line-height: 1.6vw;
+
 }
 
 .slider-Introduce {
@@ -468,26 +471,13 @@ li {
 }
 
 /* -----------------------------section3------------------------------ */
-html,
-body {
-  position: relative;
-  height: 100%;
-}
 
-body {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-.swiper {
+.section3 .swiper {
   width: calc(100%);
   height: 38vw;
 }
 
-.swiper-slide {
+.section3 .swiper-slide {
   width: 100%;
   background: #fff;
   position: relative;
