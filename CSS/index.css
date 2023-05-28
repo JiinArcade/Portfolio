@@ -406,7 +406,7 @@ li {
 
 .info-list:hover {
   transform: scale(1.05);
-  box-shadow: 2px 10px 8px #c0c0c0;
+  box-shadow: 0 4em 3em -4em #000;
 }
 
 .info-item {
