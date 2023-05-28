@@ -306,15 +306,15 @@ li {
   }
   33.3% {
     opacity: 1;
-    transform: translateY(36px);
+    transform: translateY(2.25vw);
   }
   66.6% {
     opacity: 1;
-    transform: translateY(53px);
+    transform: translateY(3.3vw);
   }
   100% {
     opacity: 0;
-    transform: translateY(79px) scale(0.5);
+    transform: translateY(4.9vw) scale(0.5);
   }
 }
 
@@ -347,6 +347,7 @@ li {
 }
 
 .coment-box {
+  position: relative;
   width: calc(100% - 20%);
   height: 27vw;
   margin: 0 auto;
@@ -358,12 +359,58 @@ li {
   font-family: "Pretendard-Medium";
 }
 
+.info-prev-next {
+  position: absolute;
+  top: 1vw;
+  right: 8vw;
+  width: calc(100% - 93%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2vw;
+}
+
+.info-box {
+  width: calc(100% - 20%);
+  height: 25vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1vw;
+  margin: 0 auto;
+}
+
+.info-list {
+  width: calc(100% - 75%);
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  border-radius: 2vw;
+}
+
+.info-item {
+  width: calc(100% - 13%);
+  padding: 5%;
+}
+
+.info-title {
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+.info-text {
+  font-size: 1vw;
+  margin-top: 1vw;
+}
+
 .slider-Introduce {
+  position: absolute;
   width: calc(100%);
   height: 6.25vw;
   display: flex;
   overflow: hidden;
-  position: absolute;
   bottom: 10%;
 }
 
