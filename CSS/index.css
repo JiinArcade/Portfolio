@@ -682,6 +682,11 @@ li {
   margin-right: 4vw;
 }
 
+.swiper-button-prev:active,
+.swiper-button-next:active {
+  opacity: 0.8;
+}
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
   display: none;
