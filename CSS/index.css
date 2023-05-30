@@ -667,7 +667,7 @@ li {
 }
 
 .swiper-button-prev {
-  background-image: url(/IMG/project/슬라이드\ 왼쪽.png);
+  background-image: url("../IMG/project/슬라이드\ 왼쪽.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   padding: 1.2%;
@@ -675,7 +675,7 @@ li {
 }
 
 .swiper-button-next {
-  background-image: url(/IMG/project/슬라이드\ 오른쪽.png);
+  background-image: url("../IMG/project/슬라이드\ 오른쪽.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   padding: 1.2%;
